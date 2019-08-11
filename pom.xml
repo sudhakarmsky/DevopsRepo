@@ -16,12 +16,13 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>sample_snapshot</id>
+      <id>deployment</id>
+      <name>sample_snapshot</name>
       <url>http://3.82.175.220:8081/nexus/content/repositories/sample_snapshot/</url>
     </snapshotRepository>
     <repository>
-      <id>sample_release</id>
-      <name>Nexus Releases</name>
+      <id>deployment</id>
+      <name>sample_release</name>
       <url>http://3.82.175.220:8081/nexus/content/repositories/sample_release/</url>
     </repository>
   </distributionManagement>
